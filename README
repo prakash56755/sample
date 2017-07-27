@@ -158,12 +158,7 @@ Portability:
   developers are not very interested in supporting these older versions, but
   will probably accept small self-contained patches to fix simple problems.)
 
-  Some environments are not recommended.  Early versions of uClibc were buggy
-  and missing many features: upgrade.  Linking against libc5 or dietlibc is
-  not supported and not interesting to the busybox developers.  (The first is
-  obsolete and has no known size or feature advantages over uClibc, the second
-  has known bugs that its developers have actively refused to fix.)  Ancient
-  Linux kernels (2.0.x and earlier) are similarly uninteresting.
+ 
 
   In theory it's possible to use Busybox under other operating systems (such as
   MacOS X, Solaris, Cygwin, or the BSD Fork Du Jour).  This generally involves
